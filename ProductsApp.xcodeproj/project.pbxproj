@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		479E15132AC1811A00D196AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E15122AC1811A00D196AC /* AppDelegate.swift */; };
 		479E15152AC1811A00D196AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E15142AC1811A00D196AC /* SceneDelegate.swift */; };
-		479E15172AC1811A00D196AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E15162AC1811A00D196AC /* ViewController.swift */; };
+		479E15172AC1811A00D196AC /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E15162AC1811A00D196AC /* Anasayfa.swift */; };
 		479E151A2AC1811A00D196AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479E15182AC1811A00D196AC /* Main.storyboard */; };
 		479E151C2AC1811B00D196AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479E151B2AC1811B00D196AC /* Assets.xcassets */; };
 		479E151F2AC1811B00D196AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479E151D2AC1811B00D196AC /* LaunchScreen.storyboard */; };
+		479E15272AC1815800D196AC /* Urunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E15262AC1815800D196AC /* Urunler.swift */; };
+		479E15292AC1825900D196AC /* DetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E15282AC1825900D196AC /* DetaySayfa.swift */; };
+		479E152B2AC184F200D196AC /* UrunlerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E152A2AC184F200D196AC /* UrunlerHucre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		479E150F2AC1811A00D196AC /* ProductsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		479E15122AC1811A00D196AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		479E15142AC1811A00D196AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		479E15162AC1811A00D196AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		479E15162AC1811A00D196AC /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		479E15192AC1811A00D196AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		479E151B2AC1811B00D196AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		479E151E2AC1811B00D196AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		479E15202AC1811B00D196AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479E15262AC1815800D196AC /* Urunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urunler.swift; sourceTree = "<group>"; };
+		479E15282AC1825900D196AC /* DetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfa.swift; sourceTree = "<group>"; };
+		479E152A2AC184F200D196AC /* UrunlerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunlerHucre.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				479E15122AC1811A00D196AC /* AppDelegate.swift */,
 				479E15142AC1811A00D196AC /* SceneDelegate.swift */,
-				479E15162AC1811A00D196AC /* ViewController.swift */,
+				479E15162AC1811A00D196AC /* Anasayfa.swift */,
+				479E15282AC1825900D196AC /* DetaySayfa.swift */,
+				479E15262AC1815800D196AC /* Urunler.swift */,
+				479E152A2AC184F200D196AC /* UrunlerHucre.swift */,
 				479E15182AC1811A00D196AC /* Main.storyboard */,
 				479E151B2AC1811B00D196AC /* Assets.xcassets */,
 				479E151D2AC1811B00D196AC /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				479E15172AC1811A00D196AC /* ViewController.swift in Sources */,
+				479E15172AC1811A00D196AC /* Anasayfa.swift in Sources */,
+				479E15272AC1815800D196AC /* Urunler.swift in Sources */,
 				479E15132AC1811A00D196AC /* AppDelegate.swift in Sources */,
+				479E152B2AC184F200D196AC /* UrunlerHucre.swift in Sources */,
+				479E15292AC1825900D196AC /* DetaySayfa.swift in Sources */,
 				479E15152AC1811A00D196AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
